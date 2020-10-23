@@ -12,7 +12,6 @@ class Home extends Component {
         return (
             <Box>
                 <Typography variant="h2" align="center" color="primary"> Shao Kee Moua </Typography>
-
             </Box>
         )
     }

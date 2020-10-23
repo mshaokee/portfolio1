@@ -8,6 +8,7 @@ import {
 
 //import pages and redirecting
 import Home from '../Home/Home';
+import Nav from '../Nav/Nav';
 
 class App extends Component {
 
@@ -18,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <Nav />
         <Home />
       </Router>
     )
