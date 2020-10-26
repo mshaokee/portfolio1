@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //MUI
-import { Typography, Box } from '@material-ui/core';
+import { Typography, Box, Button } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = () => {
@@ -12,6 +12,8 @@ const styles = () => {
         text: {
             padding: '18px',
             float: 'right',
+            color: 'white',
+            // margin: '5px'
         },
         title: {
             color: 'white',
@@ -25,6 +27,7 @@ const styles = () => {
         info: {
             color: 'white',
             float: 'right',
+            margin: '5px'
         }
     })
 };//end styles
@@ -40,10 +43,10 @@ class Nav extends Component {
                     <Typography className={classes.title} variant="h6">Shao Kee Moua</Typography>
                     {/* information holds the click ons */}
                     <div className={classes.info}>
-                        <Typography className={classes.text} variant="h6">Contact</Typography>
-                        <Typography className={classes.text} variant="h6">Portfolio</Typography>
-                        <Typography className={classes.text} variant="h6">Skills</Typography>
-                        <Typography className={classes.text} variant="h6">About Me</Typography> 
+                        <Button className={classes.text} variant="h6">Contact</Button>
+                        <Button className={classes.text} variant="h6">Portfolio</Button>
+                        <Button className={classes.text} variant="h6">Skills</Button>
+                        <Button className={classes.text} variant="h6">About Me</Button> 
                     </div>
                 </Box>
             </div>
