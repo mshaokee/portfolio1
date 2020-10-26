@@ -38,7 +38,6 @@ class Nav extends Component {
             <div className={classes.nav}>
                 <Box className={classes.box}>
                     <Typography className={classes.title} variant="h6">Shao Kee Moua</Typography>
-
                     {/* information holds the click ons */}
                     <div className={classes.info}>
                         <Typography className={classes.text} variant="h6">Contact</Typography>
